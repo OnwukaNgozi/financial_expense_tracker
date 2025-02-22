@@ -82,7 +82,7 @@ if __name__ == "__main__":
 
     # Retrieve by ID
     fetched_expense_id = db.get_expense_by_id(expense_three.id)
-    print(f"Fetched Expense: {fetched_expense_id.to_dict() if fetched_expense else 'Not found'}")
+    print(f"Fetched Expense: {fetched_expense_id.to_dict() if fetched_expense_id else 'Not found'}")
 
     # Retrieve by title
     expenses_by_title = db.get_expense_by_title("School Fees")
