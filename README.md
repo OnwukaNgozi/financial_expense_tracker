@@ -25,7 +25,9 @@ This project focuses on the understanding of object-oriented programming (OOP) c
 - To clone this repository;
 - Navigate to the repository.
 - Copy the URL from the code section.
-- Open your terminal and use the command git clone repository_url in the directory you want the local copy to be created. This will download a copy of the repository in your directory for you to work with.
+- Open your terminal and use the command git clone <repository_url> in the directory you want the local copy to be created. This will download a copy of the repository in your directory for you to work with.
 
 # How to run the code
-In my main.Py file, I add additional scripts for testing the the code to ensure it works.
+In my expense_tracker.py file, I add additional scripts for testing the the code to ensure it works.
+- cd into the cloned directory and run the code using python3 expense_tracker.py, then hit enter.
+
