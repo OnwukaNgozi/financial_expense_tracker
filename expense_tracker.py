@@ -77,6 +77,9 @@ if __name__ == "__main__":
     db.add_expense(expense_four)
     db.add_expense(expense_five)
 
+    # View all expenses
+    print("All Expenses:", db.to_dict())
+
     # Update an expense
     expense_three.update(amount=1300000.0)
 
