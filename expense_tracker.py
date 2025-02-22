@@ -95,4 +95,4 @@ if __name__ == "__main__":
     db.remove_expense(expense_four.id)
 
     # View all expenses
-    print("All Expenses:", db.to_dict())
+    print("Updated Expenses:", db.to_dict())
