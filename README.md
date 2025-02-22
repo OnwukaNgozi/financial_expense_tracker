@@ -8,7 +8,7 @@ This project focuses on the understanding of object-oriented programming (OOP) c
 * Managing a collection of objects efficiently.
 * Generating unique identifiers for each expense.
 
-# I carried out two primary classes which are;
+# The two primary classes include;
 - Expense Class(for individual expenses): It consist of ID, title, amount, created at and updated at. The code initializes a new expense with unique ID, set the creation time and stores the expense details, it also allows users to modify the title and amount of an existing expense and updates the timestamp. Finally, it converts the expense object into a dictionary for easy storage and retrieval.
 - Expense database(for managing multiple expenses): This has a list that stores multiple expenses. It initializes an empty list to store expenses, adds new expenses to the list, removes expenses using unique ID, retrieves expenses by ID and title and finally converts to a dictionary.
 
